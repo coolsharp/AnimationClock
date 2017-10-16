@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <com.coolsharp.animationclock.NumberView
+        android:id="@+id/hourFirst"
+        android:layout_width="10dp"
+        android:layout_height="12dp" />
+
+    <com.coolsharp.animationclock.NumberView
+        android:id="@+id/hourSecond"
+        android:layout_width="10dp"
+        android:layout_height="12dp" />
+
+    <TextView
+        android:id="@+id/tv_hm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text=":"
+        android:textSize="10sp" />
+
+    <com.coolsharp.animationclock.NumberView
+        android:id="@+id/minuteFirst"
+        android:layout_width="10dp"
+        android:layout_height="12dp"
+        android:layout_marginLeft="1dp" />
+
+    <com.coolsharp.animationclock.NumberView
+        android:id="@+id/minuteSecond"
+        android:layout_width="10dp"
+        android:layout_height="12dp" />
+
+    <TextView
+        android:id="@+id/tv_ms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text=":"
+        android:textSize="10sp" />
+
+    <com.coolsharp.animationclock.NumberView
+        android:id="@+id/SecondFirst"
+        android:layout_width="10dp"
+        android:layout_height="12dp"
+        android:layout_marginLeft="1dp" />
+
+    <com.coolsharp.animationclock.NumberView
+        android:id="@+id/SecondSecond"
+        android:layout_width="10dp"
+        android:layout_height="12dp" />
+
+</LinearLayout>

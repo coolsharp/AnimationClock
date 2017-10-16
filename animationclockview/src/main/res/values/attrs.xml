@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ClockView">
+        <attr name="innerStrokeWidth" format="dimension"/>
+        <attr name="outerStrokeWidth" format="dimension"/>
+        <attr name="innerStrokeColor" format="color"/>
+        <attr name="outerStrokeColor" format="color"/>
+        <attr name="colonColor" format="color"/>
+    </declare-styleable>
+</resources>
