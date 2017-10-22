@@ -1,4 +1,15 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+
+publish {
+    userOrg = 'coolsharp'
+    groupId = 'com.coolsharp.animationclock'
+    artifactId = 'android-exception-tracker'
+    publishVersion = '0.0.1'
+    desc = 'Android animation clockview'
+    website = 'https://github.com/coolsharp/AnimationClock'
+    repository = "https://github.com/coolsharp/AnimationClock.git"
+}
 
 android {
     compileSdkVersion 26
@@ -26,6 +37,5 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:26.+'
     testCompile 'junit:junit:4.12'
 }
