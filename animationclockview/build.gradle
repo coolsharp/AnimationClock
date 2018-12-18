@@ -1,5 +1,17 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
+apply plugin: 'com.novoda.bintray-release'
+
+publish {
+    userOrg = 'coolsharp'
+    groupId = 'com.coolsharp.animationclock'
+    artifactId = 'animation-clockview'
+    publishVersion = '0.1'
+    desc = 'https://github.com/coolsharp/AnimationClock'
+    website = 'https://github.com/coolsharp/AnimationClock'
+    issueTracker = "https://github.com/coolsharp/AnimationClockissues"
+    repository = "https://github.com/coolsharp/AnimationClock.git"
+}
 
 android {
     compileSdkVersion 26
@@ -9,7 +21,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
-        versionName "1.0"
+        versionName "0.1"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
