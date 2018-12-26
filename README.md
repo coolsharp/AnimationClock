@@ -1,23 +1,28 @@
 
-# KeyD - Display for input sources
+# Animation Clock
 
-KeyD는 한영 키 전환등의 이벤트를 감지해 현재 input sources 상태를 사용자에게 표시해주는 App 입니다.
-
-
-![Screenshot](https://i.imgur.com/klG2iAp.png)
-
-- [Download](https://drive.google.com/open?id=1TlAfDc1XsGwqUk2sjdphBuwGEy1qLyKU)
+안드로이드 앱에서 숫자 및 시계 애니메이션을 쉽게 디스플레이 해 주는 뷰 위젯 라이브러리 입니다.
 
 
-## Base Code
-- [isHUD on github](https://github.com/ghawkgu/isHUD)
+![Screenshot](device-2018-12-26-162804.2018-12-26%2016_32_10.gif)
 
 
-## System requirements
-- Mac OS X 10.6.x(Snow Leopard)+
+## How do I get it?
+Add the following to your build.gradle file.
+```
+allprojects {	
+     repositories {	
+         ...	
+         maven {	
+             url  "https://dl.bintray.com/your-bintray-username/maven"	
+         }	
+     }	
+ }
+```
 
-## Build environment
-- XCode 9.2
+```
+implementation 'com.coolsharp.animationclock:animation-clockview:0.1'
+```
 
 ## License
-KeyD is licenced under the MIT license. So, feel free to use this utility and the source code.
+Animation Clock is licenced under the MIT license. So, feel free to use this utility and the source code.
