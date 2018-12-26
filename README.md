@@ -7,7 +7,7 @@ A library of view widgets that makes it easy to display numbers and clock animat
 
 
 ## How do I get it?
-Add the following to your build.gradle file.
+Add the following to your build.gradle(Project) file.
 ```
 allprojects {	
      repositories {	
@@ -19,10 +19,12 @@ allprojects {
  }
 ```
 
+Add the following to your build.gradle(Module) file.
 ```
 implementation 'com.coolsharp.animationclock:animation-clockview:0.1'
 ```
 
+Add the following to your layout file.
 ```
 <com.coolsharp.animationclock.ClockView
       android:id="@+id/clockView"
@@ -35,6 +37,7 @@ implementation 'com.coolsharp.animationclock:animation-clockview:0.1'
       android:layout_marginBottom="10dp" app:layout_constraintBottom_toBottomOf="parent"/>
 ```
 
+Add the following to your view file.
 ```
 override fun onCreate(savedInstanceState: Bundle?) {
    super.onCreate(savedInstanceState)
