@@ -38,7 +38,7 @@ Add the following to your layout file.
 ```
 
 Add the following to your view file.
-```java
+```kotlin
 override fun onCreate(savedInstanceState: Bundle?) {
    super.onCreate(savedInstanceState)
    setContentView(R.layout.activity_main)
