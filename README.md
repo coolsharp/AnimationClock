@@ -13,7 +13,7 @@ allprojects {
      repositories {	
          ...	
          maven {	
-             url  "https://dl.bintray.com/your-bintray-username/maven"	
+             url  "https://dl.bintray.com/coolsharp/maven"	
          }	
      }	
  }
