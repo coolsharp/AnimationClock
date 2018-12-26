@@ -1,7 +1,6 @@
 
 # Animation Clock
-
-안드로이드 앱에서 숫자 및 시계 애니메이션을 쉽게 디스플레이 해 주는 뷰 위젯 라이브러리 입니다.
+A library of view widgets that makes it easy to display numbers and clock animations in Android apps.
 
 
 ![Screenshot](device-2018-12-26-162804.2018-12-26%2016_32_10.gif)
